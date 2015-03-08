@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">viilife</string>
+    <string name="action_sure">确定</string>
+    <string name="action_back">返回</string>
+    <string name="action_unpair">解除绑定</string>
+    <string name="scan_devices_title">搜索设备</string>
+    <string name="pair_devices_title">匹配成功</string>
+    <string name="weight_scan_tip">长按设备底部配对按扭 持续5秒以上</string>
+    <string name="weight_receive_tip">您现在可以站在体重秤上称量体重了\n请保持站立10-15秒</string>
+    <string name="weight_scan_ble_tip">请保持手机蓝牙开启，否则无法搜索到设备</string>
+    <string name="weight_scaning">正在搜索设备......</string>
+    <string name="weight_pairing">正在匹配设备......</string>
+
+</resources>

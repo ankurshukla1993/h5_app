@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:background="@android:color/black" >
+
+        <TextView
+            android:id="@+id/action_back"
+            style="@style/BaseText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/action_back"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/BaseText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:text="@string/pair_devices_title"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitXY"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/demo_img" />
+    <TextView
+        style="@style/BaseText"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="电子体重秤 S3"
+        android:layout_marginTop="5dp"
+        android:textColor="#ff2ea8e5"
+        android:textSize="19sp" />
+    <TextView
+        style="@style/BaseText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/weight_receive_tip"
+        android:textColor="#ff666666"
+        android:lineSpacingExtra="10dp"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/save_btn"
+            style="@style/BaseText"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:minWidth="100dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/green_btn"
+            android:textSize="19sp"
+            android:text="@string/action_sure" />
+        <Button
+            android:id="@+id/action_unpair"
+            style="@style/BaseText"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:minWidth="100dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/gray_btn"
+            android:textSize="19sp"
+            android:layout_marginTop="15dp"
+            android:text="解除绑定" />
+    </LinearLayout>
+
+</LinearLayout>
